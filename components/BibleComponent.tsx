@@ -46,8 +46,8 @@ export default function BibleComponent() {
   return (
     <div>
       <h1>Dogunfx Bible App</h1>
-      <div className="shadow p-4 w-1/3  rounded">{text}</div>
-      <div className="w-1/3 mt-6">
+      <div className="shadow sm:p-4 p-2 sm:w-1/3  rounded">{text}</div>
+      <div className="sm:w-1/3 mt-6">
         <Input
           className="my-2"
           onChange={(evt) => {
